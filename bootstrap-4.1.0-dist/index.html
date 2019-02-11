@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Dominykas Navickas </title>
+
+    <!-- linking files to together, BootStrap,Css,Lightbox and a custom icon on the page !-->
+
+    
+    <link rel="stylesheet" href="bootstrap-4.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+  </head>
+  <!-- Id given to the navigation to where the website will scroll to !-->
+  <body data-spy="scroll" data-target="#navbarResponsive">
+
+<!-- offsetclass makes sure the nav does not lay on on top of the scrolling !-->
+<!-- Start Home Section !-->
+<div id="home">
+
+<!-- Navigation !-->
+<!-- container fluid makes sure 100% content is show if the window is resized !-->
+<!-- navbar explains that the menu is expanded up 768px and up and that it is fixed to the top !-->
+<nav class="navbar navbar-expand-md fixed-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/nest.png" alt=""></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#home">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#skills">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#work">Work</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#about">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!--- End Navigation -->
+<!--- particle.js is inserted within the landing page -->
+<!--- Start Landing Page Image -->
+<div class="landing">
+  <div id="particles-js">
+    <div class="home-wrap">
+        <div class="home-inner">
+</div>
+</div>
+</div>
+</div>
+<!--- End Landing Page Image -->
+
+<!--- Start Landong Page Caption -->
+<div class ="caption center-block text-center">
+
+  <h3> Welcome to my Website</h3>
+
+  <!--- Code for displaying my info on the landing page -->
+
+    <a class="btn btn-outline-light" href="#contact">Get in Touch</a>
+
+    </div>
+<!--- End Landong Page Caption -->
+
+</div>
+
+<!--- Start Animated Text -->
+<h1 class="type"></h1>
+<script type= "text/javascript" src="js/typed.js"></script>
+<script type= "text/javascript">
+    var typed= new Typed(".type", {
+        strings:[
+          "Dominykas Navickas","Web Developer","Graphic Designer","Creative Technologist"
+        ],
+        typeSpeed:50,
+        backSpeed:50,
+        loop:true
+
+
+    })
+
+    </script>
+
+<!--- End of Animated Text -->
+
+
+
+<!-- End of Home Section !-->
+
+<!-- Start about Section !-->
+<div id="skills"class="offset">
+<!--- Start of Jumbotron -->
+<div class="jumbotron">
+<h3 class= "heading">skills</h3>
+  <div class="heading-underline"></div>
+
+<div class="row narrow">
+    <div class="col-md-4">
+      <div class="about text-center" >
+      <a href= #work>  <btn class="skills">
+        <i class="fab fa-accusoft fa-3x"></i></a>
+      </btn>
+        <h3> Graphic Design </h3>
+        <p> I am highly proficient with using the Adobe suite applications,
+          from developing overall layouts and production designs for
+          various projects to advertisements to UX layouts and app/web designs.</p>
+      </div>
+    </div>
+
+
+
+
+
+<div class="col-md-4">
+  <div class="about text-center">
+      <a href= #work> <i class="fab fab fa-codepen fa-3x"></i></a>
+      <h3> App Development</h3>
+      <p>Designing creative prototypes according to specifications,
+          great understanding of software design and programming principles.
+          Write high quality source code to program, complete applications within deadlines </p>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="about text-center">
+    <a href= #work><i class="fab fa-chrome fa-3x"></i></a>
+      <h3> Web Design</h3>
+      <p>Both creatively and technically inclined, to build or redesign websites.
+        Strong ability to create functional and easy to use websites.
+        Able to create aesthetically appealing to the sites.</p>
+    </div>
+  </div>
+
+
+
+</div><!--- End row -->
+</div><!--- End of Jumbotron -->
+
+
+</div>
+
+<!-- End of about Section !-->
+
+<!-- Start portfolio Section !-->
+<div id="work"class="offset">
+<div class="container fluid padding">
+<h3 class="heading">work</h3>
+<div class="heading-underline"></div>
+ <!-- Start Portfolio Grid !-->
+ <div class="row no-padding">
+
+ 	<div class="col-md-6">
+ 		<div class="portfolio-item">
+ 			<a href="img/portfolio/1.png" data-lightbox="example-set" data-title="Working with 4V (node based program) from scratch to produce a motion tracking particle display for the use of a fashion runway, this group project has taken 2 months to achieve, further implementions would be available as exhibitions to the public. ">
+ 				<img class="example-image" src="img/portfolio/1.png" alt="4V Node Programming">
+ 			</a>
+ 		</div>
+ 	</div>
+
+ 	<div class= "col-md-6">
+ 		<div class="portfolio-item">
+ 			<a href="img/portfolio/2.png" data-lightbox="example-set" data-title="Working with the company OCADO (food shopping site) to produce a 15s advert on the subject of (Worlds foods on your fingertips) this project was a group project as well.I was able to get my group partners hands to mimic a clapping motion, later edited in Adobe Premiere and linked up together with Adobe After Effects">
+ 				<img class="example-image" src="img/portfolio/2.png" alt="Ocado Advertisement">
+ 			</a>
+ 		</div>
+ 	</div>
+
+ 	<div class="col-md-6">
+ 		<div class="portfolio-item">
+ 			<a href="img/portfolio/3.png" data-lightbox="example-set" data-title="--Current Ongoing Project-- Salzburg city points is an based for the tourists of Salzburg visiting the area.The app itself features a friendly user UI complimented together with AR elements such as the camera.Users will be able to take pictures/navigate to and of statues around Salzburg as a 3D object available to display. ">
+ 				<img class="example-image" src="img/portfolio/3.png" alt="Salzburg City Points">
+ 			</a>
+ 		</div>
+ 	</div>
+
+ 	<div class="col-md-6">
+ 		<div class="portfolio-item">
+ 			<a href="img/portfolio/4.png" data-lightbox="example-set" data-title="Interactive gamespace, this was coded and created using Unity, players of the game can explore the space around them. Interactive elements of the game consisted of boat travel, picking items and interacting with the patrolling NPC'S. ">
+ 				<img class="example-image" src="img/portfolio/4.png" alt="Interactive Gamespace">
+ 			</a>
+ 		</div>
+ 	</div>
+
+</div>  <!-- End Row !-->
+
+
+ <!-- End Portfolio Grid !-->
+</div> <!-- End of Container !-->
+
+
+
+
+</div>
+
+<!-- End of portfolio Section !-->
+
+<!-- Start of about me Section !-->
+<div id="about"class="offset">
+
+  <div class="jumbotron">
+
+  	<h3 class="heading">About</h3>
+  	<div class="heading-underline"></div>
+    <center>
+  <div class="row">
+
+  	<div class="col-md-5">
+      <div class="center-block img-responsive">
+  		<div class="card">
+  			<img class="card-img-top" src="img/about/1.png" alt="Dominykas Navickas" "text-center"> </img>
+  			<div class="card-body">
+  				<h4>Dominykas Navickas</h4>
+  				<h5>Creative Technologist</h5>
+  				<p>I am 22 year multi-displinary creative designer, I excel at using the Adobe suite applications,app development and creating protypes for other types of media.I am a strong fan of clean and sophisticated UX/UI layouts.</p>
+
+        </div>
+  		</div>
+  	</div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card1">
+<div class="center-block img-responsive">
+  		<div class="card">
+  			<img class="card-img-top" src="img/about/2.png" alt="CV" "text-center"> </img>
+  			<div class="card-body">
+  				<h4>Curriculum Vitae</h4>
+  				<h5>Looking for media creative roles!</h5>
+  				<p>This is my CV, references provided on request, Looking forward for your reply!</p>
+</div>
+        </div>
+  		</div>
+  	</div>
+    </div>
+</dv>
+  </div> <!--- End Row -->
+  </div> <!--- End Jumbotron -->
+
+  </div>
+  <!--- End Testimonials Section -->
+
+</div>
+
+<!-- End of blog Section !-->
+
+<!-- Start contact  Section !-->
+<div id="contact"class="offset" >
+
+
+  <div class="container-fluid footer">
+  <div class="row">
+
+  	<div class="col-md-5">
+  		<img src="img/nest.png" alt="Dominykas Navickas">
+  		<p>I am always looking forward to embarking on a new project. Feel free to contact me if you need some work done.</p>
+  		<strong>Contacting by post?</strong>
+  		<p>98A Queens Avenue<br>Watford,Hertfordshire</p>
+  		<strong>Contact Info</strong>
+      <p>Dominykas Navickas </p>
+  		<p>07401513882<br>domolyga@hotmail.co.uk</p>
+  		<a href="https://www.facebook.com/dominykasn"><i class="fab fa-facebook-square"></i></a>
+  		<a href="https://dominykasnavickas.tumblr.com/"><i class="fab fa-tumblr-square"></i></a>
+  		<a href="https://plus.google.com/u/0/117974462099846769367?tab=mX"><i class="fab fa-google-plus-square"></i></a>
+  		<a href="https://www.linkedin.com/in/dominykas-navickas-a35a22128/"><i class="fab fa-linkedin"></i></a>
+  	</div>
+
+  </div> <!--- End Row -->
+  </div> <!--- End Container Footer -->
+</div>
+
+<!-- End of contact Section !-->
+
+
+
+
+
+
+
+
+
+    <!-- Script Source Files !--> <!-- linking jquery and bootstrap to the site !-->
+    <!-- custom.js smooth scroll on click/tap !-->
+    <!-- lightbox is pop up image at the portfolio work section for the images !-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.0-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+    <!-- End Source Files !-->
+
+  </body>
+</html>
